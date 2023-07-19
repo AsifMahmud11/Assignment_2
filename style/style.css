@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,800&family=Work+Sans:ital,wght@0,400;0,700;0,800;1,600&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+header{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.First-container{
+
+    width: 1420px;
+    height: 100px;
+    display: flex;
+}
+.logo-container{
+
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.logo-container img {
+
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.logo-container p{
+ font-size: 45px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: normal;
+
+}
+.span-color{
+    color: #FF42A5 
+}
+.iteam-container{
+
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iteam-container a{
+
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+   
+}
+.fa-tikto{
+font-size: 20px;
+margin-left: 25px;
+
+}
+.fa-youtube{
+
+    font-size: 30px;
+    margin-left: 25px;
+    color:  #F61C0D;;
+}
+.box{
+    width: 262px;
+    height: 56px;
+    display: flex;
+    padding-left: 20px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.second-container{
+
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    background-image: url('../images/Group\ 14.png');
+}
+.second-image{
+
+display: grid;
+grid-template-columns: repeat(1, 2fr);
+gap: 1rem;
+width: 50%;
+
+}
+.second-content{
+
+
+    max-width: 1500px;
+    margin-left: 250px;
+    width: 45%;
+}
+.title1{
+
+ color: #0B0223;
+ text-align: center;
+ font-size: 48px;
+ font-weight: 600;
+ text-transform: uppercase;
+}
+.title2{
+
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-primary1 {
+
+    padding: 16px 30px;
+    border-radius: 38px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+}
+.btn-primary2 {
+
+    padding: 16px 30px;
+    margin-left: 20px;
+    width: 185px;
+    border-radius: 38px;
+    background: #4EC5F7;
+    color: #FFF;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+
+}
+.second-description{
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+
