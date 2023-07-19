@@ -1,0 +1,119 @@
+@media screen and  (max-width:576)
+{
+    .header{
+       width:100%;
+    
+}
+.First-container{
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.iteam-container{
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+.logo-container{
+    width: 100%;
+    margin-left: 20px;
+}
+.logo-container>img {
+    margin-left: 60px;
+}
+.box {
+    margin-bottom: 20px;
+}
+.second-container{
+    width: 100%;
+        flex-direction: column;
+}
+.title1 {
+    font-size: 40px;
+    color: #0B0223;
+    font-weight: 600;
+    text-align: center;
+}
+.second-content {
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+}
+.teams-image img {
+    width: 100%;
+}
+.forth-container{
+    flex-direction: column;
+    width: 100%;
+}
+.img-text {
+    display: none;
+}
+.fifth-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 10px;
+}
+.fifth-container,
+.horse-img1 {
+    width: 100%;
+    margin-left: 0;
+}
+.horse-img1>img {
+    width: 70%;
+    height: 500px;
+    margin-left: 55px;
+}
+.horse-img2 img {
+    margin-left: 0;
+    position: relative;
+    left: 10px;
+    bottom: 100px;
+    margin-left: 0;
+}
+.horse-img2>img {
+    height: 250px;
+}
+.horse-text a2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.sixth-sec {
+    width: 100%;
+}
+.sec1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.z1 {
+    margin-bottom: 20px;
+}
+.footer {
+    width: 100%;
+}
+.fodiv1 {
+    min-height: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+.fodiv2 {
+    flex-direction: column;
+}
+.fodiv4 {
+    flex-direction: column;
+    text-align: center;
+}
+.ending{
+    text-align: center;
+}
+}
