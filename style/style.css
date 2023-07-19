@@ -56,12 +56,12 @@ header{
     text-decoration: none;
    
 }
-.fa-tikto{
+.tik-tikto{
 font-size: 20px;
 margin-left: 25px;
 
 }
-.fa-youtube{
+.you-youtube{
 
     font-size: 30px;
     margin-left: 25px;
@@ -147,7 +147,94 @@ width: 50%;
 .second-description{
 
     font-size: 15px;
-    font-style: normal;
     font-weight: 500;
 }
+.Third-content{
 
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.third-content-title{
+
+    font-size: 38px;
+    font-weight: 600;  
+}
+.span2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 38px;
+    font-weight: 600;
+}
+.Third-description{
+
+ color: #534C64;
+text-align: center;
+font-size: 18px;
+font-weight: 350;
+line-height: 30px; 
+}
+.forth-container{
+
+display: flex;
+justify-content: space-evenly;
+}
+.img-sec{
+
+    border: 10px #FFFFFF;
+}
+.img-text{
+
+    max-width: 1400px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-evenly ;
+}
+.x1{
+    margin-left: -45px;
+}
+.fifth-container{
+  background: #FFF;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.horse-text {
+
+    text-align: center;
+    position: relative;
+    top: 150px;
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+.horse-text p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.horse-img1 img {
+
+    margin-left: 100px;
+}
+.a2 {
+    
+    margin-left: 50px;
+}
+
+.a1 {
+    color: #F948B2;
+}
+.horse-img2 img {
+
+    position: relative;
+    left: 700px;
+    bottom: 300px;
+}
