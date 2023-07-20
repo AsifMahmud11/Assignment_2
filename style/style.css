@@ -51,7 +51,6 @@ header{
 
     color: #3C354F;
     text-align: center;
-    font-family: Work Sans;
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
@@ -60,19 +59,23 @@ header{
 .fa-tikto{
 font-size: 20px;
 margin-left: 25px;
-
+width: 24px;
+height: 24px;
 }
 .fa-youtube{
 
-    font-size: 30px;
-    margin-left: 25px;
+width: 33.916px;
+height: 24px;
+    font-size: 25px;
+    margin-left: 20px;
     color:  #F61C0D;;
 }
 .box{
+    align-items: center;
     width: 262px;
-    height: 56px;
+    height: 46px;
     display: flex;
-    padding-left: 20px;
+    padding-left: 24px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
@@ -199,6 +202,33 @@ justify-content: space-evenly;
 .x1{
     margin-left: -45px;
 }
+
+.container {
+    position: relative;
+    width: 340px;
+    height: 400px;
+    border-radius: 50px;
+    margin-left: 696px;
+    margin-top: -405px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgb(88, 32, 32);
+    border-radius: 20px;
+}
+.container:hover .overlay {
+    opacity: 0.7;
+}
+.fa-circle-play{
+   align-items: center;
 .fifth-container{
   background: #FFF;
   display: grid;
