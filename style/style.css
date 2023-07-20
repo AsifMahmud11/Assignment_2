@@ -227,8 +227,16 @@ justify-content: space-evenly;
 .container:hover .overlay {
     opacity: 0.7;
 }
-.fa-circle-play{
-   align-items: center;
+.icon{
+    color: blueviolet;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
 .fifth-container{
   background: #FFF;
   display: grid;
